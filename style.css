@@ -1,0 +1,128 @@
+#header{
+  background-image: url("./header1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  /* opacity: .74; */
+}
+*{
+  box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+h1{
+  color:rgb(59, 57, 57);
+}
+#welcome{
+  /* text-transform: uppercase; */
+  position: absolute;
+  top:150px;
+  font-family: 'Parisienne', cursive;
+  color:orange
+}
+.navbar{
+  color: black;
+  position: absolute;
+  top:200px;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+#logo{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  color:white;
+
+}
+#icon{
+  font-size: 40px;
+}
+#tag{
+  padding-left: 8px;
+  font-size: 15px;
+}
+#navbarSupportedContent > ul > li {
+  margin: 0 8px;
+
+}
+#navbarSupportedContent > ul > li > a{
+  color: white;
+  font-size: 18px;
+  font-family: 'Parisienne', cursive;
+
+
+}
+
+#navbarSupportedContent > ul > li > a:hover{
+  background: orange;
+  text-align: center;
+  
+  border-radius: 25px;
+  transition: all .1s ease-in;
+}
+.home{
+  margin: 100px;
+}
+.container{
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.para{
+  width: 60%;
+  margin: 30px auto;
+}
+.menu{
+  margin: 50px;
+
+
+}
+/* .card , .row{
+  margin: 10px;
+} */
+.card-img-top{
+  height: 180px;
+  border: 1px solid black;
+}
+.price{
+  color:orange;
+
+}
+.price:hover{
+  color: black;
+  font-weight: bold;
+}
+.dish{
+  color: cadetblue;
+}
+.btn{
+  background-color: orange  
+  !important;
+  border: 2px solid black !important;
+}
+body > div.main.container > div:nth-child(3) > div > form > button:hover,
+body > div.main.container > div:nth-child(5) > div > form > button:hover{
+  color:black;
+  background-color: burlywood  !important;
+  font-size: 19px;
+  font-weight: 400;
+}
+form{
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+input{
+  margin: 10px;
+}
+.footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+}
